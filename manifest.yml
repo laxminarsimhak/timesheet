@@ -3,5 +3,4 @@ applications:
 - name: Timesheet
   memory: 512M
   host: timesheetHost
-  buildpack: https://github.com/laxminarsimhak/timesheet.git
-  path: .
+  
