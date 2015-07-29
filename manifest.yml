@@ -3,4 +3,4 @@ applications:
 - name: Timesheet
   memory: 512M
   host: timesheetHost
-  
+  buildpack: java
