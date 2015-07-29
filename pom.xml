@@ -14,14 +14,7 @@
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <attachClasses>true</attachClasses>
-                   <modules>
-                        <webModule>
-                            <groupId>${project.groupId}</groupId>
-                            <artifactId>my-module</artifactId>
-                            <contextRoot>gch/timesheet</contextRoot>
-                       </webModule>
-                   </modules>
-                </configuration>
+                 </configuration>
             </plugin>
         </plugins>
     </build>
