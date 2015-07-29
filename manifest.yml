@@ -2,4 +2,4 @@
 applications:
 - name: timesheet-gui
   memory: 512M
-  host: timesheet
+  host: timesheetHost
