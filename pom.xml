@@ -5,7 +5,14 @@
  <version>1</version>
   <packaging>war</packaging>
   <name>Timesheet</name>
-  <build>
+  <dependencies>
+  <dependency>
+  	<groupId>mysql</groupId>
+  	<artifactId>mysql-connector-java</artifactId>
+  	<version>5.1.6</version>
+  </dependency>
+ </dependencies>
+ <build>
         <finalName>Timesheet</finalName>
         <plugins>
             <plugin>
