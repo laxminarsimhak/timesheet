@@ -8,3 +8,5 @@ deploy:
    api: https://api.run.pivotal.io
    organization: gch-timesheet
    space: development
+before_script:
+  - mysql -e 'create database db_timesheet;'
