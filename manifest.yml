@@ -5,4 +5,4 @@ applications:
   host: timesheetHost
   path: target/Timesheet.war
 services:
- - timesheet-mysql-01
+ - db_timesheet
