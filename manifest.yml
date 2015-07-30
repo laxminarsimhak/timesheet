@@ -4,3 +4,5 @@ applications:
   memory: 512M
   host: timesheetHost
   path: target/Timesheet.war
+services:
+ - timesheet-mysql-01
