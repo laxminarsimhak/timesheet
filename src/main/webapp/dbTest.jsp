@@ -3,7 +3,7 @@
  <%
  try{
    Class.forName("com.mysql.jdbc.Driver"); 
-   java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test","root","root"); 
+   java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://113.128.164.218:3306/db_timesheet","root","hima4461"); 
    Statement st= con.createStatement(); 
   out.write("Success..");
  }catch(Exception e){
