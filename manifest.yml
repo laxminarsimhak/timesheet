@@ -4,5 +4,3 @@ applications:
   memory: 512M
   host: timesheetHost
   path: target/Timesheet.war
-services:
- - db_timesheet
